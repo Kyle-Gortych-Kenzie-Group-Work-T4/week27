@@ -17,6 +17,7 @@ import java.util.List;
 
 public class ComplianceEnforcer {
     private final CustomerService customerService;
+
     private final RingDeviceCommunicatorService ringClient;
 
     /**
