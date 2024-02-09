@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "GroupWork Compliance Enforcer Phase 1 Test ",
+      "setup": "",
+      "run": "./gradlew groupwork-complianceenforcer-phase1-test --rerun-tasks",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "GroupWork Compliance Enforcer Phase 2 Test",
+      "setup": "",
+      "run": "./gradlew groupwork-complianceenforcer-phase2-test --rerun-tasks",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
