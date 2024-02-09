@@ -17,7 +17,6 @@ import java.util.List;
 
 public class ComplianceEnforcer {
     private final CustomerService customerService;
-
     private final RingDeviceCommunicatorService ringClient;
 
     /**
@@ -29,6 +28,8 @@ public class ComplianceEnforcer {
         this.customerService = customerService;
         this.ringClient = ringClient;
     }
+
+    // test
 
     /**
      * Finds all the devices owned by the specified customer that are not updated to at least
