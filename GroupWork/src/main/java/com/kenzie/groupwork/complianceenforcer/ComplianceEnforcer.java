@@ -29,7 +29,6 @@ public class ComplianceEnforcer {
         this.ringClient = ringClient;
     }
 
-    // test
 
     /**
      * Finds all the devices owned by the specified customer that are not updated to at least
